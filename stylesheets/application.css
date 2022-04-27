@@ -1,6 +1,7 @@
 @import url(../../../stylesheets/application.css);
 @import url(font-awesome.css);
 @import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap);
 @import url(theme.css);
 @import url(lists.css);
 @import url(color_tasks.css);
@@ -17,7 +18,7 @@ html {
   overflow-x: hidden;
 }
 body {
-  font-family: "Lato", Helvetika, Calibri, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, -apple-system;
   font-size: 100%;
   padding: 0 !important;
   margin: 0;
@@ -29,7 +30,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Lato", Helvetika, Calibri, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, -apple-system;
   padding: 2px 10px 1px 0px;
   margin: 0 0 10px 0;
 }
@@ -291,11 +292,12 @@ label[for="q"] {
 /*==========FALSH NOTICE======*/
 div.flash.notice {
   border: none;
-  border-left: 20px solid #1abb9b;
+  border-left: 5px solid #1abb9b;
   background: none;
   background-color: rgba(0, 255, 0, 0.1);
   padding-left: 10px;
   border-radius: 4px;
+  height: 30px;
 }
 div.flash.error,
 #errorExplanation {
@@ -411,4 +413,8 @@ select[onchange="if (this.value != '') { window.location = this.value; }"] {
 
 em {
   display: none;
+}
+
+#footer {
+  display: none !important;
 }
