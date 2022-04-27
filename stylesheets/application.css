@@ -41,7 +41,7 @@ input:focus {
   outline-width: 0;
 }
 #top-menu {
-  background: #fff;
+  background: #fff !important;
   border-bottom: 4px solid #47a3da;
   color: #999;
   width: 240px;
@@ -51,7 +51,7 @@ input:focus {
   position: fixed;
   left: -240px;
   text-transform: uppercase;
-  border-right: 2px solid #eeeff3;
+  border-right: none !important;
   padding: 0;
   background-color: #354051;
   line-height: 40px;
@@ -82,7 +82,7 @@ input:focus {
 #top-menu > ul {
   margin-top: 20px;
   padding: 0 0 20px 20px;
-  border-bottom: 3px solid #2d3747;
+  border-bottom: 1px solid #888888;
 }
 #top-menu,
 .menu-push-toright,
@@ -134,13 +134,13 @@ label[for="q"] {
 
 #header {
   padding-left: 80px;
-  padding-top: 80px;
   background-color: #fefefe;
   color: #fefefe;
 }
 
 #header h1 {
   color: #4e515e;
+  display: none;
   margin-left: -40px;
 }
 #header h1 a {
@@ -217,12 +217,13 @@ label[for="q"] {
 
 #top-menu #loggedas {
   font-size: 0;
-  border-bottom: 3px solid #2d3747;
+  border-bottom: 1px solid #888888;
   text-align: center;
   margin-top: 10px;
   float: none;
   line-height: 25px;
   padding-bottom: 5px;
+  display: none !important;
 }
 
 #account {
@@ -247,22 +248,22 @@ label[for="q"] {
 }
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
-  border-bottom: 3px solid #40aff8;
+  border-bottom: 1px solid #40aff8;
 }
 #main-menu li a:hover {
-  border-bottom: 3px solid #40aff8;
+  border-bottom: 1px solid #40aff8;
 }
 #main-menu li a {
   color: #848f9f;
   text-transform: uppercase;
   margin-left: 20px;
   padding: 4px 5px 4px 5px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 #main-menu li a:hover {
   background: none;
   color: #000;
-  border-bottom: 3px solid #40aff8;
+  border-bottom: 1px solid #40aff8;
 }
 #main-menu li a.new-object {
   background-color: transparent;
@@ -278,7 +279,7 @@ label[for="q"] {
   margin-left: 0;
 }
 #main-menu .menu-children li a:hover {
-  border-bottom: 3px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 #content {

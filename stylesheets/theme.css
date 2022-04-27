@@ -16,9 +16,9 @@
 .burger .two,
 .burger .three {
   margin-top: 3px;
-  background: #258ecd;
-  width: 33px;
-  height: 4px;
+  background: #0e0e0e;
+  width: 30px;
+  height: 2px;
   position: absolute;
   border-radius: 2px;
 }
