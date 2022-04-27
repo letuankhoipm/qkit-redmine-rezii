@@ -13,11 +13,11 @@
 @import url(activity.css);
 @import url(projects.css);
 
-html{
+html {
   overflow-x: hidden;
 }
 body {
-  font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
+  font-family: "Lato", Helvetika, Calibri, Arial, sans-serif;
   font-size: 100%;
   padding: 0 !important;
   margin: 0;
@@ -25,20 +25,23 @@ body {
   left: 0;
   right: 0;
 }
-h1, h2, h3, h4 {
-  font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", Helvetika, Calibri, Arial, sans-serif;
   padding: 2px 10px 1px 0px;
   margin: 0 0 10px 0;
 }
 
-h1:first-letter{
+h1:first-letter {
   text-transform: capitalize;
 }
 input:focus {
   outline-width: 0;
 }
-#top-menu{
-  background: #FFF;
+#top-menu {
+  background: #fff;
   border-bottom: 4px solid #47a3da;
   color: #999;
   width: 240px;
@@ -76,18 +79,22 @@ input:focus {
   float: none;
 }
 
-#top-menu > ul{
+#top-menu > ul {
   margin-top: 20px;
   padding: 0 0 20px 20px;
   border-bottom: 3px solid #2d3747;
 }
-#top-menu, .menu-push-toright, body, #menu, #quick-search {
+#top-menu,
+.menu-push-toright,
+body,
+#menu,
+#quick-search {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-#menu{
+#menu {
   left: 0;
   top: 0px;
   padding-top: 3px;
@@ -106,40 +113,40 @@ input:focus {
   }
 }
 
-#top-menu.open{
+#top-menu.open {
   left: 0;
 }
 
-.menu-push-toright{
+.menu-push-toright {
   left: 240px;
 }
-#menu.menu-push-toright{
+#menu.menu-push-toright {
   left: 240px;
 }
 
-#quick-search.menu-push-toright{
+#quick-search.menu-push-toright {
   left: 300px;
 }
 
-label[for="q"]{
+label[for="q"] {
   display: none;
 }
 
-#header{
+#header {
   padding-left: 80px;
   padding-top: 80px;
   background-color: #fefefe;
   color: #fefefe;
 }
 
-#header h1{
+#header h1 {
   color: #4e515e;
   margin-left: -40px;
 }
-#header h1 a{
+#header h1 a {
   color: #4e515e;
 }
-#header a{
+#header a {
   color: #fefefe;
 }
 
@@ -172,19 +179,19 @@ label[for="q"]{
   margin-right: 0;
 }
 
-#quick-search input{
+#quick-search input {
   padding: 0 20px !important;
   height: auto;
   /*width: calc(100% - 2em);*/
   border: none;
   width: 100%;
   background: transparent;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1em;
   line-height: 28px;
   /*opacity: 0;*/
   -webkit-transition: opacity 0.8s;
-  transition: opacity 0.s;
+  transition: opacity 0s;
 }
 
 #project-jump.drdn {
@@ -208,7 +215,7 @@ label[for="q"]{
   margin: 0;
 }
 
-#top-menu #loggedas{
+#top-menu #loggedas {
   font-size: 0;
   border-bottom: 3px solid #2d3747;
   text-align: center;
@@ -218,24 +225,25 @@ label[for="q"]{
   padding-bottom: 5px;
 }
 
-#account{
+#account {
   position: absolute;
   bottom: 0;
   margin-bottom: 50px;
   margin-left: 20px;
 }
-#account .tt_start, #account .tt_stop{
+#account .tt_start,
+#account .tt_stop {
   padding: 0px;
 }
-#top-menu .logout{
+#top-menu .logout {
   color: #ad66ad;
 }
-#header{
+#header {
   border-bottom: 2px solid #dee4e9;
 }
 /*=========MAIN MENU=======*/
 #main-menu {
-  margin-right:0;
+  margin-right: 0;
 }
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
@@ -263,7 +271,6 @@ label[for="q"]{
   padding-top: 5px;
 }
 #main-menu .menu-children li {
-
 }
 #main-menu .menu-children li a {
   padding-left: 15px;
@@ -271,67 +278,72 @@ label[for="q"]{
   margin-left: 0;
 }
 #main-menu .menu-children li a:hover {
-  border-bottom: 3px solid #fff
+  border-bottom: 3px solid #fff;
 }
 
-#content{
+#content {
   width: 81%;
   background-color: #ebf1f5;
   padding-left: 20px;
 }
 
 /*==========FALSH NOTICE======*/
-div.flash.notice{
+div.flash.notice {
   border: none;
-  border-left: 20px solid #1ABB9B;
+  border-left: 20px solid #1abb9b;
   background: none;
-  background-color: rgba(0,255,0,0.1);
+  background-color: rgba(0, 255, 0, 0.1);
   padding-left: 10px;
   border-radius: 4px;
 }
-div.flash.error, #errorExplanation{
+div.flash.error,
+#errorExplanation {
   border: none;
   border-left: 20px solid #880000;
   background: none;
-  background-color: rgba(255,0,0,0.1);
+  background-color: rgba(255, 0, 0, 0.1);
   padding-left: 10px;
   border-radius: 4px;
 }
-div.flash.error, #errorExplanation ul{
+div.flash.error,
+#errorExplanation ul {
   margin: 2px;
 }
-p.nodata{
+p.nodata {
   border: none;
-  border-left: 20px solid #FDBF3B;
+  border-left: 20px solid #fdbf3b;
   background: none;
-  background-color: #FFEBC1;
+  background-color: #ffebc1;
   padding-left: 10px;
   border-radius: 4px;
 }
 /*==========CALENDAR==========*/
-#ui-datepicker-div{
+#ui-datepicker-div {
   padding: 0;
 }
-.ui-datepicker-header{
+.ui-datepicker-header {
   background: #6f7c93;
   border: none;
 }
-.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
   border-radius: 0px !important;
 }
-.ui-datepicker table{
+.ui-datepicker table {
   display: block;
 }
-.ui-datepicker table .ui-datepicker-week-col{
+.ui-datepicker table .ui-datepicker-week-col {
   padding-left: 20px;
 }
-#s2id_project_quick_jump_box, #project_quick_jump_box,
-.select2-drop.select2-with-searchbox.select2-drop-active{
+#s2id_project_quick_jump_box,
+#project_quick_jump_box,
+.select2-drop.select2-with-searchbox.select2-drop-active {
   position: fixed;
   top: 10px;
   right: 10px;
 }
-
 
 #sidebar {
   width: 15% !important;
@@ -340,7 +352,8 @@ p.nodata{
   font-weight: bold;
   color: inherit;
 }
-#sidebar ul, ul.flat {
+#sidebar ul,
+ul.flat {
   line-height: 24px;
 }
 #sidebarHandler,
@@ -361,30 +374,40 @@ p.nodata{
   width: 23px;
 }
 /*============ ISSUE ===========*/
-div.issue { background: #f6f6f6; }
+div.issue {
+  background: #f6f6f6;
+}
 /*============ SELECT ==========*/
 select {
-    outline:none;
-    display: inline-block;
-    cursor:pointer;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 500px !important;
+  height: 40px !important;
+  font-size: 1rem !important;
 }
 /*=========== MY PAGE ==========*/
 tr.time-entry {
   white-space: normal !important;
 }
 /*=========== LOGO ============*/
-.redmine-logo{
+.redmine-logo {
   margin: auto;
   width: 200px;
-  height: 45px;
-  background-image: url('../images/qkit_logo.png');
-  background-size: 200px;
+  height: 55px;
+  background-position: top;
+  background-image: url("../images/qkit_logo.png");
+  background-size: 130px;
   background-repeat: no-repeat;
 }
 /*=========== RedmineCRM ======*/
 /* TODO: Find a way rewrite it */
-select[onchange="if (this.value != '') { window.location = this.value; }"]{
+select[onchange="if (this.value != '') { window.location = this.value; }"] {
   position: fixed;
   top: 17px;
   right: 10px;
+}
+
+em {
+  display: none;
 }

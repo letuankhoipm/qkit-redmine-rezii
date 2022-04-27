@@ -19,83 +19,43 @@ button:hover {
   color: #000;
 }
 
+
+
 .buttons a,
 .buttons a:hover,
 .buttons a:focus {
   text-decoration: none;
-} */
-
-textarea {
-  resize: none;
 }
 
-input,
-textarea {
-  background: none;
-  color: #000000;
-  font-size: 18px;
-  padding: 10px 10px 10px 5px;
-  display: block;
-  width: 350px;
-  border: none;
-  border-radius: 0;
-  border-bottom: 1px solid #000000;
+*/
+
+input[type="text"] {
+  width: 500px !important;
+  height: 40px !important;
+  border-radius: 3px !important;
+  font-size: 1rem;
+  color: #1c1c1c;
 }
 
-input,
-textarea:focus {
-  outline: none;
+input[type="text"]:hover,
+button:hover {
+  border-color: #78529a;
+  color: #000;
 }
 
-input,
-textarea:focus ~ label {
-  top: -14px;
-  font-size: 12px;
-  color: gray;
-}
-
-input,
-textarea:valid ~ label {
-  top: -14px;
-  font-size: 12px;
-  color: gray;
-}
-
-input,
-textarea :focus ~ .bar:before {
-  width: 350px;
-}
-
-input[type="password"] {
-  letter-spacing: 0.3em;
+input[type="checkbox"] {
+  font-size: 1rem;
+  color: #1c1c1c;
+  right: 0 !important;
 }
 
 label {
   color: #000000;
   font-size: 16px;
-  font-weight: normal;
-  position: absolute;
   pointer-events: none;
-  left: 5px;
-  top: 10px;
-  transition: 0.2s ease all;
-}
-
-.bar {
-  position: relative;
-  display: block;
-  width: 350px;
-}
-
-.bar:before {
-  content: "";
-  height: 2px;
-  width: 0;
-  bottom: 0px;
-  position: absolute;
-  background: gray;
-  transition: 0.2s ease all;
-  left: 0%;
+  padding: 10px;
+  text-align: left !important;
+  width: 500px !important;
 }
 
 /* CSS */
