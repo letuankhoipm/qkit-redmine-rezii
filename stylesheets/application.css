@@ -134,6 +134,7 @@ label[for="q"] {
 }
 
 #header {
+  min-height: 2rem !important;
   padding-left: 80px;
   background-color: #fefefe;
   color: #fefefe;
@@ -296,7 +297,8 @@ div.flash.notice {
   background: none;
   background-color: rgba(0, 255, 0, 0.1);
   padding-left: 10px;
-  border-radius: 4px;
+  line-height: 1.7 !important;
+  border-radius: 0 !important;
   height: 30px;
 }
 div.flash.error,
